@@ -1,1 +1,21 @@
-<h1> opppa </h1>
+<h1 style="text-align: center; font-size: x-large;">Estudantes</h1>
+<hr>
+
+<h2>Alunos do ano de 2025</h2>
+
+<% @alunos.each do |aluno| %>
+    <p><%= aluno[:name] %></p>
+    <button
+    
+    <div>   
+        <details>
+            <summary>
+                <%= aluno[:name] %>
+            </summary>
+            <p>Age: <%= aluno[:age] %></p>
+            <p><%= aluno[:age] %>
+                <%= aluno[:curriculum] %>
+                <%= aluno[:curse] %> </p>
+        </details>
+    </div>
+<% end %>
